@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.port": 5500,
+  "css.validate": true,
+  "html.format.wrapLineLength": 120,
+  "files.associations": {
+    "*.css": "css",
+    "*.html": "html",
+    "*.js": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "html": "html"
+  }
+}

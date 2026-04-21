@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VANTA — Creative Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Nav -->
+  <nav>
+    <div class="logo">VANTA</div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="big-number">V</div>
+    <p class="hero-label">Est. 2019 — Creative Studio</p>
+    <h1 class="hero-title">We Build <em>Bold</em><br>Digital Things</h1>
+    <div class="hero-sub">
+      <p class="hero-desc">A creative studio at the intersection of strategy, design, and technology. We partner with brands that refuse to be ordinary.</p>
+      <a href="#work" class="cta-btn">
+        View Our Work
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      Scroll
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <div class="marquee-item">Branding <span>✦</span> Web Design <span>✦</span> Motion <span>✦</span> Strategy <span>✦</span> Development <span>✦</span></div>
+      <div class="marquee-item">Branding <span>✦</span> Web Design <span>✦</span> Motion <span>✦</span> Strategy <span>✦</span> Development <span>✦</span></div>
+    </div>
+  </div>
+
+  <!-- Work -->
+  <section id="work">
+    <div class="section-label">Selected Work</div>
+    <div class="works-grid">
+      <div class="work-card card-1">
+        <div class="work-card-bg"></div>
+        <div class="card-inner-pattern">
+          <svg class="card-shape" width="300" height="300" viewBox="0 0 300 300">
+            <polygon points="150,20 280,240 20,240" stroke="#c8f000" stroke-width="2" fill="none"/>
+            <polygon points="150,60 240,220 60,220" stroke="#c8f000" stroke-width="1" fill="none" opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="work-info">
+          <p class="work-tag">Branding · Identity</p>
+          <h3 class="work-title">Apex Mineral Co.</h3>
+        </div>
+      </div>
+      <div class="work-card card-2">
+        <div class="work-card-bg"></div>
+        <div class="card-inner-pattern">
+          <svg class="card-shape" width="200" height="200" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="80" stroke="#c8f000" stroke-width="2" fill="none"/>
+            <circle cx="100" cy="100" r="50" stroke="#c8f000" stroke-width="1" fill="none" opacity="0.5"/>
+            <line x1="100" y1="20" x2="100" y2="180" stroke="#c8f000" stroke-width="0.5"/>
+            <line x1="20" y1="100" x2="180" y2="100" stroke="#c8f000" stroke-width="0.5"/>
+          </svg>
+        </div>
+        <div class="work-info">
+          <p class="work-tag">Web · Motion</p>
+          <h3 class="work-title">Orbis Finance</h3>
+        </div>
+      </div>
+      <div class="work-card card-3">
+        <div class="work-card-bg"></div>
+        <div class="card-inner-pattern">
+          <svg class="card-shape" width="200" height="200" viewBox="0 0 200 200">
+            <rect x="40" y="40" width="120" height="120" stroke="#c8f000" stroke-width="2" fill="none" transform="rotate(15 100 100)"/>
+            <rect x="60" y="60" width="80" height="80" stroke="#c8f000" stroke-width="1" fill="none" transform="rotate(30 100 100)" opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="work-info">
+          <p class="work-tag">Strategy · Design</p>
+          <h3 class="work-title">Realm Studios</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <div class="stats reveal">
+    <div class="stat-item"><div class="stat-num">142<em>+</em></div><div class="stat-desc">Projects Delivered</div></div>
+    <div class="stat-item"><div class="stat-num">6<em>+</em></div><div class="stat-desc">Years of craft</div></div>
+    <div class="stat-item"><div class="stat-num">98<em>%</em></div><div class="stat-desc">Client retention</div></div>
+    <div class="stat-item"><div class="stat-num">24<em>+</em></div><div class="stat-desc">Industry Awards</div></div>
+  </div>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="section-label">What We Do</div>
+    <ul class="services-list">
+      <li class="service-item reveal"><span class="service-name">Brand Identity</span><span class="service-num">01</span></li>
+      <li class="service-item reveal" style="transition-delay:0.1s"><span class="service-name">Web Design & Development</span><span class="service-num">02</span></li>
+      <li class="service-item reveal" style="transition-delay:0.2s"><span class="service-name">Motion & Animation</span><span class="service-num">03</span></li>
+      <li class="service-item reveal" style="transition-delay:0.3s"><span class="service-name">Digital Strategy</span><span class="service-num">04</span></li>
+      <li class="service-item reveal" style="transition-delay:0.4s"><span class="service-name">Creative Direction</span><span class="service-num">05</span></li>
+    </ul>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-visual-bg"></div>
+        <div class="about-visual-text">VA<br>NT<br>A</div>
+      </div>
+      <div class="about-content reveal" style="transition-delay:0.2s">
+        <h2>Craft Meets <em>Ambition</em></h2>
+        <p>We are a small, fiercely intentional studio. We don't take on many projects — we take on the right ones, and we obsess over every detail until the work is undeniable.</p>
+        <p>Our team brings together designers, engineers, and strategists who believe the best work happens at the edges — where disciplines blur, where expectations break.</p>
+        <a href="pages/contact.html" class="cta-btn" style="margin-top:16px; display:inline-flex;">
+          Start a Project
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <h2 class="reveal">Let's Make<br>Something <em>Real</em></h2>
+    <a href="pages/contact.html" class="cta-btn reveal">
+      Get In Touch
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-copy">© 2026 VANTA Studio. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Dribbble</a>
+    </div>
+  </footer>
+
+  <script src="js/cursor.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
